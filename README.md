@@ -52,7 +52,7 @@ Un grand merci à tous ceux qui ont contribué à ce projet :
 
 ### 📞 Support
 
-Pour toute question ou assistance, veuillez nous contacter à [email@example.com](mailto:email@example.com).
+Pour toute question ou assistance, veuillez nous contacter à [laracarina.dasilvalopes@gmail.com](mailto:laracarina.dasilvalopes@gmail.com).
 
 ### 📜 Licence
 
