@@ -1,7 +1,7 @@
 /*********************
-* Auteur : Romain SEMLER
-* Fichier : tic-tac-toe.css
-* Date : 07/09/2014
+* Auteurs : Lara,Kelly,Sandra,Océane
+* Fichier : style.css
+* Date : 07/06/2024
 ***********************/
 h1 {
     margin-top: 15px;
@@ -22,7 +22,7 @@ p {
 
 #but:hover {
     color: black;
-    background-color: yellow;
+    background-color: pink;
 }
 
 #Jeu {
