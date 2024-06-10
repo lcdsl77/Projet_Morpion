@@ -18,11 +18,37 @@
         <p>Le célèbre jeu de Morpion, également connu sous le nom de Tic-Tac-Toe.</p>
     </header>
     <main>
-        <section class="instructions">
+        <section class="player-info">
+            <h2>Informations sur les joueurs</h2>
+            <form id="playerForm">
+                <div class="player">
+                    <label for="player1Name">Nom du Joueur 1:</label>
+                    <input type="text" id="player1Name" name="player1Name" required>
+                    <label for="player1Sex">Sexe:</label>
+                    <select id="player1Sex" name="player1Sex" required>
+                        <option value="male">Homme</option>
+                        <option value="female">Femme</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <div class="player">
+                    <label for="player2Name">Nom du Joueur 2:</label>
+                    <input type="text" id="player2Name" name="player2Name" required>
+                    <label for="player2Sex">Sexe:</label>
+                    <select id="player2Sex" name="player2Sex" required>
+                        <option value="male">Homme</option>
+                        <option value="female">Femme</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <button type="submit">Commencer le jeu</button>
+            </form>
+        </section>
+        <section class="instructions" style="display: none;">
             <h2>Instructions</h2>
             <p>Deux joueurs s'affrontent tour à tour pour placer leurs marqueurs (X et O) sur une grille de 3x3. Le premier joueur à aligner trois marqueurs horizontalement, verticalement ou en diagonale gagne la partie. Si toutes les cases sont remplies sans aligner trois marqueurs, la partie est déclarée nulle.</p>
         </section>
-        <section class="game">
+        <section class="game" style="display: none;">
             <div class="board" id="board">
                 <div class="cell" data-index="0"></div>
                 <div class="cell" data-index="1"></div>
@@ -44,4 +70,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-
