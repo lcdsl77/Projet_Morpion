@@ -4,3 +4,44 @@
 * Date : 07/06/2024
 ***********************/
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de Morpion</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jeu de Morpion</h1>
+        <p>Le célèbre jeu de Morpion, également connu sous le nom de Tic-Tac-Toe.</p>
+    </header>
+    <main>
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <p>Deux joueurs s'affrontent tour à tour pour placer leurs marqueurs (X et O) sur une grille de 3x3. Le premier joueur à aligner trois marqueurs horizontalement, verticalement ou en diagonale gagne la partie. Si toutes les cases sont remplies sans aligner trois marqueurs, la partie est déclarée nulle.</p>
+        </section>
+        <section class="game">
+            <div class="board" id="board">
+                <div class="cell" data-index="0"></div>
+                <div class="cell" data-index="1"></div>
+                <div class="cell" data-index="2"></div>
+                <div class="cell" data-index="3"></div>
+                <div class="cell" data-index="4"></div>
+                <div class="cell" data-index="5"></div>
+                <div class="cell" data-index="6"></div>
+                <div class="cell" data-index="7"></div>
+                <div class="cell" data-index="8"></div>
+            </div>
+            <div class="message" id="message"></div>
+            <button id="restartButton">Recommencer le jeu</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jeu de Morpion. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
